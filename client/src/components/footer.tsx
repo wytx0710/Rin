@@ -34,7 +34,7 @@ function Footer() {
                     <span>
                         © 2024 Powered by <a className='hover:underline' href="https://github.com/OXeu/Rin" target="_blank">Rin</a>
                     </span>
-                    <a href="https://icp.gov.moe/?keyword=20240710" target="_blank">萌ICP备20240710号</a>
+                    <a href="https://icp.gov.moe/?keyword=20240710" target="_blank">|萌ICP备20240710号</a>
                     {process.env.RSS_ENABLE === "true" && <>
                         <Spliter />
                         <Popup trigger={
