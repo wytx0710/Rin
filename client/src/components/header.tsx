@@ -159,7 +159,7 @@ function NavBar({menu, onClick}: { menu: boolean, onClick?: () => void }) {
             <NavItem menu={menu} onClick={onClick} title="时间轴" selected={location === "/timeline"} href="/timeline"/>
             <NavItem menu={menu} onClick={onClick} when={profile?.permission == true} title="写作"
                      selected={location.startsWith("/writing")} href="/writing"/>
-            <NavItem menu={menu} onClick={onClick} title="朋友们" selected={location === "/friends"} href="/friends"/>
+            <NavItem menu={menu} onClick={onClick} title="友链" selected={location === "/friends"} href="/friends"/>
             <NavItem menu={menu} onClick={onClick} title="关于" selected={location === "/about"} href="/about"/>
             <NavItem menu={menu} onClick={onClick} when={profile?.permission == true} title="设置"
                      selected={location === "/settings"}
